@@ -10,10 +10,7 @@ Paste response into Couplet Catcher, then name the file to save it:
 Select which file to generate Anki deck, then click install:
 ![PQ3](https://github.com/user-attachments/assets/a1194174-4d31-4be6-9342-3a0b4ba54847)
 
-Begin studying. The answer must be typed, and answer fields are switched with space, and their width corresponds to the answers within. Type as you would anything else.
-![PQ4](https://github.com/user-attachments/assets/6d7fb84d-cb23-46eb-9ca4-be53409188ae)
-
-Press AltGr or hover over the generated image to reveal the answer [helpful for learning cards for the first time, or reminding difficult ones]
+Begin studying. The answer must be typed, and answer fields are switched with space, and their width corresponds to the answers within. Type as you would anything else. Press AltGr or hover over the generated image to reveal the answer [helpful for learning cards for the first time, or reminding difficult ones]
 ![PQ5](https://github.com/user-attachments/assets/0b7a4f41-1bc8-4569-8c88-3eddef0a3877)
 
 Entering the answer correctly after utilising the hint shows a blue 'assisted' border on the back template. Press fail to continue learning this flashcard.
