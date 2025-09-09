@@ -1203,9 +1203,7 @@ class AnkiGeneratorApp(QWidget):
         self.last_deck_path = None  # To store the path of the last generated deck
         # ------------------------------------
         self.font_files = [
-            "GT-America-LCGV-Standard-Black-Italic.ttf", "GT-America-LCGV-Standard-Medium.ttf",
-            "GT-America-LCGV-Standard-Light.ttf", "GT-America-LCGV-Standard-Regular.ttf",
-            "GT-America-LCGV-Mono-Regular.ttf"
+
         ]
         self.load_fonts()
         self.init_ui()
@@ -1364,7 +1362,7 @@ class AnkiGeneratorApp(QWidget):
                 border: 1px solid {palette["border"]};
                 border-bottom-color: transparent;
                 padding: 10px;
-                font-family: 'GT America LCGV'; font-weight: 300; font-size: 16px;
+                font-family: ''; font-weight: 300; font-size: 16px;
                 color: {palette["text"]};
                 qproperty-textRendering: "AntialiasedText";
             }}
@@ -1377,19 +1375,19 @@ class AnkiGeneratorApp(QWidget):
                 qproperty-textRendering: "AntialiasedText";
             }}
             #titleLabel {{
-                font-family: 'GT America LCGV'; font-weight: 900; font-style: italic;
+                font-family: ''; font-weight: 900; font-style: italic;
                 font-size: 32px; color: {palette["text_strong"]}; padding-bottom: 5px;
                 qproperty-textRendering: "AntialiasedText";
             }}
             QLabel {{
-                font-family: 'GT America LCGV'; font-weight: 300;
+                font-family: ''; font-weight: 300;
                 font-size: 16px; color: {palette["text_subtle"]};
                 qproperty-textRendering: "AntialiasedText";
             }}
             QLineEdit, QComboBox {{
                 background-color: {palette["input_bg"]}; border: 1px solid {palette["border"]};
                 padding: 10px; border-radius: 4px; color: {palette["text"]};
-                font-family: 'GT America LCGV'; font-weight: 300; font-size: 16px;
+                font-family: ''; font-weight: 300; font-size: 16px;
                 qproperty-textRendering: "AntialiasedText";
             }}
 
@@ -1397,7 +1395,7 @@ class AnkiGeneratorApp(QWidget):
             QTextEdit {{
                 background-color: {palette["input_bg"]}; border: 1px solid {palette["border"]};
                 padding: 10px; border-radius: 4px; color: {palette["text"]};
-                font-family: 'GT America Mono LCGV', monospace; font-size: 14px;
+                font-family: '', monospace; font-size: 14px;
             }}
             #coupletsInput[hasText="false"] {{
                 border-style: dashed;
@@ -1420,7 +1418,7 @@ class AnkiGeneratorApp(QWidget):
 
             QPushButton {{
                 color: #FFFFFF; border: none; padding: 10px 15px; border-radius: 5px;
-                font-family: 'GT America LCGV'; font-weight: 500; font-size: 14px;
+                font-family: ''; font-weight: 500; font-size: 14px;
                 qproperty-textRendering: "AntialiasedText";
             }}
 
