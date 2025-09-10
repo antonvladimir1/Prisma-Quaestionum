@@ -21,3 +21,5 @@ Incorrect answers due to incomplete or incorrect typed values show a warning scr
 
 Correct answers with no assistance show a green border:
 ![PQ9](https://github.com/user-attachments/assets/43c56de7-7627-4ff3-a1e9-d9f0470c89fb)
+
+MIT License: Anton Vladimir
